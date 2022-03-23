@@ -10,5 +10,3 @@ int main() {
     cout << hour << ' ' << min << endl;
     return 0;
 }
-// ctrl + alt + c -> build
-// ctrl + alt + r -> execute
