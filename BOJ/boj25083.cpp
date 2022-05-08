@@ -9,5 +9,3 @@ int main() {
     cout << "      |"<< endl;
 	return 0;
 }
-// ctrl + alt + c -> build
-// ctrl + alt + r -> execute
