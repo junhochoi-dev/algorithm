@@ -1,13 +1,9 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int hour, min, time;
-    cin >> hour >> min >> time;
-    min += time;
-    hour += min / 60;
-    min %= 60;
-    hour %= 24;
-    cout << hour << ' ' << min << endl;
+    int money, cnt;
+	cin >> money >> cnt;
+	cout << money / cnt << endl << money % cnt;
     return 0;
 }
 // ctrl + alt + c -> build
