@@ -20,5 +20,3 @@ int main() {
     for(int n = 0 ; n < oct.size() ; n++) cout << oct[n];
     return 0;
 }
-// ctrl + alt + c -> build
-// ctrl + alt + r -> execute
