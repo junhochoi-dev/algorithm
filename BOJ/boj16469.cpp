@@ -9,7 +9,7 @@ int dx[] = { 1, -1, 0, 0 };
 int dy[] = { 0, 0, 1, -1 };
 bool table[MAXSIZE][MAXSIZE] = { false, }; // true = wall , false = none
 int visited[3][MAXSIZE][MAXSIZE] = { 0, };
-int time[MAXSIZE][MAXSIZE] = { 0, };
+int Time[MAXSIZE][MAXSIZE] = { 0, };
 void BFS(int x, int y, int v) {
 	queue<pair<int,int>> que;
 	que.push(make_pair(x, y));
@@ -56,15 +56,15 @@ int main() {
 		int leastTime = 99999;
 		for (int i = 0; i < R; i++) {
 			for (int j = 0; j < C; j++) {
-				time[i][j] = max(max(visited[0][i][j], visited[1][i][j]), visited[2][i][j]);
-				if (leastTime > time[i][j] && time[i][j] != 0) leastTime = time[i][j];
+				Time[i][j] = max(max(visited[0][i][j], visited[1][i][j]), visited[2][i][j]);
+				if (leastTime > Time[i][j] && Time[i][j] != 0) leastTime = Time[i][j];
 			}
 		}
 		cout << leastTime << endl;
 		int cnt = 0;
 		for (int i = 0; i < R; i++) {
 			for (int j = 0; j < C; j++) {
-				if (time[i][j] == leastTime) cnt++;
+				if (Time[i][j] == leastTime) cnt++;
 			}
 		}
 		cout << cnt << endl;
