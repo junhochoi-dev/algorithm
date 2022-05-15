@@ -1,23 +1,25 @@
 #include <iostream>
 #include <algorithm>
-#include <vector>
 #include <cmath>
 using namespace std;
+class node{
+public:
+    int value;
+    node *left = NULL;
+    node *right = NULL;
+};
+void completeBinaryTree(int *arr, int size){
+    int mid = (size - 1) / 2;
+    node *head = new node;
+
+}
 int main() {
-    vector<int> oct;
-    string bin;
-    cin >> bin;
-    reverse(bin.begin(), bin.end());
-    int sum = 0, idx = 0;
-    for(int n = 0, m = 0 ; n < bin.size() ; n++){
-        sum += (bin[n] - '0') * pow(2, idx++);
-        if(n == bin.size() - 1 || n % 3 == 2){
-            oct.push_back(sum);
-            sum = idx = 0;
-        }
-    }
-    reverse(oct.begin(), oct.end());
-    for(int n = 0 ; n < oct.size() ; n++) cout << oct[n];
+    int level, size, *arr;
+    cin >> level;
+    size = pow(2, level) - 1;
+    arr = new int[size];
+    for(int n = 0 ; n < size ; n++) cin >> arr[n];
+    completeBinaryTree(arr, size);
     return 0;
 }
 // ctrl + alt + c -> build
