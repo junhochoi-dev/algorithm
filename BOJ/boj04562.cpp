@@ -12,6 +12,3 @@ int main() {
 	}
 	return 0;
 }
-
-// ctrl + alt + c -> build
-// ctrl + alt + r -> execute
