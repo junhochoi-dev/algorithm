@@ -54,6 +54,3 @@ int main() {
 	cout << vt[size-1] - vt[0] << endl;
     return 0;
 }
-
-// ctrl + alt + c -> build
-// ctrl + alt + r -> execute
