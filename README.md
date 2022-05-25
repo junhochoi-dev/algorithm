@@ -5,7 +5,6 @@
 가중치 O
 
 - 너비우선탐색(BFS:Breadth-First Search)
-
 - 깊이우선탐색(DFS:Depth-First Search)
 
 가중치 X   
