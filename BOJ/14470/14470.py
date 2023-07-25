@@ -1,0 +1,7 @@
+A=int(input())
+B=int(input())
+C=int(input())
+D=int(input())
+E=int(input())
+if A < 0: print(abs(A) * C + D + E * B)
+else: print(E * (B - A))

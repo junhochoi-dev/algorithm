@@ -1,0 +1,4 @@
+sz = int(input())
+t = list(map(int, input().split()))
+ssum = sum(t) + (len(t) - 1) * 8
+print(ssum // 24, ssum % 24)

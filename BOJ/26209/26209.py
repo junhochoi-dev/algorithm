@@ -1,0 +1,1 @@
+print('S'if input().find('9')==-1 else'F')

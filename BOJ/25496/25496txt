@@ -1,0 +1,26 @@
+#include <iostream>
+#include <algorithm>
+#include <string>
+using namespace std;
+#define endl '\n'
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    int fatigue, sz, *acc, cnt = 0;
+    cin >> fatigue >> sz;
+    acc = new int[sz];
+    for(int n = 0 ; n < sz ; n++) cin >> acc[n];
+    fatigue = 200 - fatigue;
+	sort(acc, acc + sz);
+    for(int n = 0 ; n < sz ; n++){
+    	if(fatigue - acc[n] >= 0){
+    		cnt++;
+    		fatigue -= acc[n];
+		}
+		else break;
+	}
+	if(sz - cnt != 0 && fatigue > 0) cnt++;
+	cout << cnt << endl;
+    return 0;
+}

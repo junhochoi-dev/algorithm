@@ -1,0 +1,34 @@
+#include <iostream>
+#include <algorithm>
+#include <string>
+using namespace std;
+#define endl '\n'
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    int sz, *arr;
+	cin >> sz;
+	arr = new int[sz];
+	for(int n = 0 ; n < sz ; n++) cin >> arr[n];
+	int battery = 100, prev_phone = -1, prev_consume = 0;
+	for(int n = 0 ; n < sz ; n++){
+		if(arr[n] != prev_phone){
+			battery -= 2;
+			prev_consume = 2;
+		}
+		else{ // arr[n] == prev_phone
+			battery -= prev_consume * 2;
+			prev_consume *= 2;
+		}
+		prev_phone = arr[n];
+		if(battery <= 0) {
+			battery = 100;
+			prev_phone = -1;
+			prev_consume = 0;
+		}
+	}
+	cout << 100 - battery << endl;
+	
+    return 0;
+}
