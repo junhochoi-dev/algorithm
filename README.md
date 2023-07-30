@@ -9,7 +9,7 @@
 </div>
 
 
-[![CodeForces Profile](https://github-readme-solvedac.hyp3rflow.vercel.app/api/?handle=cjh970422)](https://codeforces.com/profile/cjh970422)
+[![CodeForces Profile](https://github-readme-solvedac.hyp3rflow.vercel.app/api/?handle=cjh970422)](https://solved.ac/profile/cjh970422)[![CodeForces Profile](https://github-readme-solvedac.hyp3rflow.vercel.app/api/?handle=cjh970422)](https://solved.ac/profile/cjh970422)
 
 ### STAT OF CODEFORCES
 [![CodeForces Profile](https://cf.leed.at?id=cjh970422)](https://codeforces.com/profile/cjh970422)
