@@ -2,7 +2,7 @@
 
 ### STAT OF BOJ
 
-<div style="display:flex; margin:10px">
+<div style="display:flex;">
   
   <div style="margin:10px">
   
