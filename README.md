@@ -9,7 +9,7 @@
 </div>
 
 
-[![BOJ]([https://cf.leed.at?id=cjh970422](https://github-readme-solvedac.hyp3rflow.vercel.app/api/?handle=cjh970422))](https://codeforces.com/profile/cjh970422)
+[![BOJ]([https://cf.leed.at?id=cjh970422](https://github-readme-solvedac.hyp3rflow.vercel.app/api/?handle=cjh970422))]
 
 ### STAT OF CODEFORCES
 [![CodeForces Profile](https://cf.leed.at?id=cjh970422)](https://codeforces.com/profile/cjh970422)
