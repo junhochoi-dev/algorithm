@@ -31,7 +31,7 @@ public class Main {
         arr = new long[N + 1];
         segmentTree = new long[1 << ((int)Math.ceil((Math.log(N)/Math.log(2))) + 1)];
         for(int i = 1; i <= N; i++){
-            arr[i] = Long.parseLong(br.readLine()) % MOD;
+            arr[i] = Long.parseLong(br.readLine());
         }
         init(1, N, 1);
         for(int i = 0; i < M + K; i++){
