@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Main{
+    static StringBuilder sb = new StringBuilder();
     static int N, M;
     static int[] arr, segmentTree;
     static int init(int left, int right, int node){
@@ -34,7 +35,8 @@ public class Main{
             st = new StringTokenizer(br.readLine());
             int s = Integer.parseInt(st.nextToken());
             int e = Integer.parseInt(st.nextToken());
-            System.out.println(query(1, N, 1, s, e));
+            sb.append(query(1, N, 1, s, e)).append('\n');
         }
+        System.out.println(sb);
     }
 }
