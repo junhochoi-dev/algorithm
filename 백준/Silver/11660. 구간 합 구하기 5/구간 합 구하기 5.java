@@ -1,3 +1,4 @@
+import javax.swing.plaf.ButtonUI;
 import java.io.*;
 import java.util.*;
 
@@ -24,10 +25,7 @@ public class Main{
         dp[1][1] = arr[1][1];
         for(int i = 1; i <= N; i++){
             for(int j = 1; j <= N; j++){
-                dp[i][j] = dp[i - 1][j - 1];
-                for(int k = 1; k <= i - 1; k++) dp[i][j] += arr[k][j];
-                for(int k = 1; k <= j - 1; k++) dp[i][j] += arr[i][k];
-                dp[i][j] += arr[i][j];
+                dp[i][j] = arr[i][j] + dp[i][j - 1] + dp[i - 1][j] - dp[i - 1][j - 1];
             }
         }
 
