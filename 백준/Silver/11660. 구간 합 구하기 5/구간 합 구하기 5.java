@@ -39,6 +39,8 @@ public class Main{
             int ry = Integer.parseInt(st.nextToken());
             sb.append(dp[rx][ry] + dp[lx][ly] - dp[lx][ry] - dp[rx][ly]).append('\n');
         }
-        System.out.println(sb);
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        bw.append(sb);
+        bw.flush();
     }
 }
