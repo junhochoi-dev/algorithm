@@ -3,10 +3,10 @@ import java.util.*;
 public class Main {
     static int N, M, virus_cnt = 0;
     static int[] dx = {1, -1, 0, 0}, dy = {0, 0, 1, -1};
+    static int[][] arr;
     static Set<Integer> wall = new HashSet<Integer>();
     static Set<Integer> wall_temp = new HashSet<Integer>();
     static Set<Integer> virus = new HashSet<Integer>();
-    static int[][] arr;
     static Set<Integer> visited = new HashSet<Integer>();
 
     static void DFS(int x, int y){
@@ -16,10 +16,9 @@ public class Main {
             int ty = y + dy[k];
             int v = tx * M + ty;
             if(tx < 0 || ty < 0 || tx >= N || ty >= M) continue;
-            if(arr[tx][ty] == 1) continue;
-            if(arr[tx][ty] == 2) continue;
             if(visited.contains(v)) continue;
             if(wall.contains(v)) continue;
+            if(virus.contains(v)) continue;
             if(wall_temp.contains(v)) continue;
             visited.add(v);
             DFS(tx, ty);
