@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Main{
+    static StringBuilder sb = new StringBuilder();
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
@@ -33,10 +34,10 @@ public class Main{
         if(index == -1) System.out.println(-1);
         else{
             int[] back = Arrays.copyOfRange(arr, index + 1, N);
-            for(int i = 0; i <= index; i++) System.out.print(arr[i] + " ");
+            for(int i = 0; i <= index; i++) sb.append(arr[i]).append(" ");
             Arrays.sort(back);
-            for(int i = 0; i < back.length; i++) System.out.print(back[i] + " ");
+            for(int i = 0; i < back.length; i++) sb.append(back[i]).append(" ");
         }
-
+        System.out.println(sb);
     }
 }
