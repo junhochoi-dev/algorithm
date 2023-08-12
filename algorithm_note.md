@@ -1,5 +1,4 @@
-
-## BFS & DFS
+## BFS & DFS (너비 우선 탐색 & 깊이 우선 탐색)
 BFS : 너비우선탐색
 DFS : 깊이우선탐색
 
@@ -19,8 +18,8 @@ BFS를 인접리스트로 구현하냐?
 
 
 
-## 이분 탐색
-이분탐색
+## Binary Search (이분탐색)
+정렬된 정수의 리스트를 같은 크기의 두 부분 리스트로 나누고 필요한 부분에서만 탐색하도록 제한하여 원하는 원소를 찾는 알고리즘
 
 
 
@@ -29,10 +28,12 @@ BFS를 인접리스트로 구현하냐?
 
 
 
-## DP : Dynamic Programming(동적계획법)
+## DP : Dynamic Programming (동적 계획법)
+특정 범위까지의 값을 구하기 위해서 그것과 다른 범위까지의 값을 이용하여 효율적으로 값을 구하는 알고리즘
 예전에 것을 이용하여 최적을 구한다
 LIS (Longest Increasing Subsequence) - 최장 증가 부분 수열
 
 
-## SegmentTree(세그먼트트리)
+
+## SegmentTree (세그먼트 트리)
 Inversion Counting
