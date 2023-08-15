@@ -49,3 +49,7 @@ Inversion Counting
 int[] arr = new long[N + 1];
 int[] segmentTree = new long[1 << ((int)Math.ceil((Math.log(N)/Math.log(2))) + 1)];
 ```
+
+
+4N
+
