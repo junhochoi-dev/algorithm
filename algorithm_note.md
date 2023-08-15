@@ -44,3 +44,8 @@ LIS (Longest Increasing Subsequence) - 최장 증가 부분 수열
 
 ## SegmentTree (세그먼트 트리)
 Inversion Counting
+
+```java
+int[] arr = new long[N + 1];
+int[] segmentTree = new long[1 << ((int)Math.ceil((Math.log(N)/Math.log(2))) + 1)];
+```
