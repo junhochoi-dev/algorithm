@@ -35,10 +35,7 @@ public class Main{
         N = Integer.parseInt(br.readLine());
         arr = new int[N + 1];
         arr[0] = Integer.MAX_VALUE;
-
         segmentTree = new int[1 << ((int)(Math.ceil(Math.log(N)/Math.log(2))) + 1)];
-
-        int minimum = Integer.MAX_VALUE;
         for(int i = 1; i <= N; i++) arr[i] = Integer.parseInt(br.readLine());
 
         init(1, N, 1);
