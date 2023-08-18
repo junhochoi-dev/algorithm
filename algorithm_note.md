@@ -75,6 +75,7 @@ LIS (Longest Increasing Subsequence) - 최장 증가 부분 수열
 
 ## MST 최소스패닝트리
 
+<br><br><br>
 
 
 
@@ -98,4 +99,7 @@ static int init(int left, int right, int node){
 
 Inversion Counting
 
+## Segment Tree with Lazy Propagation (느리게 갱신되는 세그먼트 트리)
+
+<br><br><br>
 
