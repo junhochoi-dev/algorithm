@@ -26,6 +26,7 @@ BFS를 인접리스트로 구현하냐?
 정렬된 정수의 리스트를 같은 크기의 두 부분 리스트로 나누고 필요한 부분에서만 탐색하도록 제한하여 원하는 원소를 찾는 알고리즘
 
 어떤 정렬된 범위에 해답이 존재할 때, 그 해답을 빨리 찾기위해 이분 탐색을 이용해 빠르게 찾는다.
+가능한 해 구간에 대해서 이분탐색을 하는 방법 = Parametric Search
 
 - 시간복잡도
 
@@ -72,6 +73,11 @@ LIS (Longest Increasing Subsequence) - 최장 증가 부분 수열
 
 
 
+## MST 최소스패닝트리
+
+
+
+
 ## SegmentTree (세그먼트 트리)
 
 
@@ -91,4 +97,5 @@ static int init(int left, int right, int node){
 4N
 
 Inversion Counting
+
 
