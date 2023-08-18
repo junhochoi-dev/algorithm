@@ -1,6 +1,10 @@
 ## BFS & DFS (너비 우선 탐색 & 깊이 우선 탐색)
 
 BFS : 너비우선탐색
+```java
+Queue<Integer> queue = new ArrayDeque<Integer>();
+```
+
 DFS : 깊이우선탐색
 
 무조건 둘을 혼용해서 쓸 수 있는 것이 아니다.
