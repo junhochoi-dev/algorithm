@@ -2,7 +2,12 @@
 
 BFS : 너비우선탐색
 ```java
+// java
 Queue<Integer> queue = new ArrayDeque<Integer>();
+queue.add(start);
+while(!queue.isEmpty()){
+    int curr = queue.poll();
+}
 ```
 
 DFS : 깊이우선탐색
