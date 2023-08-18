@@ -64,9 +64,9 @@ Knapsack 문제
 
 
 
-## 다익스트라
+## 다익스트라 (Dijkstra)
 
-하나의 정점으로부터 나머지 정점까지의 최단거리를 구하는 알고리즘
+하나의 정점에서 다른 모든 정점까지의 최단 거리를 구하는 알고리즘(S.S.S.P - Single Source Shortest Path)
 
 - 시간복잡도
 
@@ -79,6 +79,8 @@ Knapsack 문제
 
 
 ## Floyd-Warshall (플로이드 워셜)
+
+모든 노드 간 최단 경로
 
 <br><br><br>
 
