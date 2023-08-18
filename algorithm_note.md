@@ -65,6 +65,7 @@ LIS (Longest Increasing Subsequence) - 최장 증가 부분 수열
 - 시간복잡도
 
 선형 탐색 O(N^2)
+
 힙 O(NlogN)
 
 <br><br><br>
