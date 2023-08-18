@@ -41,6 +41,7 @@ O(logN)
 
 특정 범위까지의 값을 구하기 위해서 그것과 다른 범위까지의 값을 이용하여 효율적으로 값을 구하는 알고리즘
 예전에 것을 이용하여 최적을 구한다
+
 LIS (Longest Increasing Subsequence) - 최장 증가 부분 수열
 
 <br><br><br>
