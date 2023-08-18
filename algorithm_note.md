@@ -73,7 +73,7 @@ Knapsack 문제
 
 
 
-## 다익스트라 (Dijkstra)
+## Dijkstra (다익스트라)
 
 하나의 정점에서 다른 모든 정점까지의 최단 거리를 구하는 알고리즘(S.S.S.P - Single Source Shortest Path)
 
@@ -87,7 +87,7 @@ Knapsack 문제
 
 
 
-## Floyd-Warshall (플로이드 워셜)
+## Floyd Warshall (플로이드 워셜)
 
 모든 정점에서 다른 모든 정점까지의 최단 거리를 구하는 알고리즘
 
@@ -96,7 +96,7 @@ Knapsack 문제
 
 
 
-## MST 최소스패닝트리
+## MST : Minimum Spanning Tree(최소스패닝트리)
 
 <br><br><br>
 
