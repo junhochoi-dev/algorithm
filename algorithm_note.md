@@ -55,6 +55,11 @@ O(N)
 
 LIS (Longest Increasing Subsequence) - 최장 증가 부분 수열
 
+Knapsack 문제
+
+0-1 KnapSack Problem
+
+
 <br><br><br>
 
 
