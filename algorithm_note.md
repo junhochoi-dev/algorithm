@@ -106,11 +106,13 @@ Knapsack 문제
 
 
 ```java
+// java
 int[] arr = new long[N + 1];
 int[] segmentTree = new long[1 << ((int)Math.ceil((Math.log(N)/Math.log(2))) + 1)];
 ```
 
 ```java
+// java
 // func 조건에 맞는 구간 함수
 static int init(int left, int right, int node){
     if(left == right) return segmentTree[node] = arr[left];
