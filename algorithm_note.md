@@ -35,6 +35,10 @@ O(logN)
 
 대상이 두개로 정해져있으면 무조건 한 번은 생각해보기
 
+- 시간복잡도
+
+O(N)
+
 <br><br><br>
 
 ## DP : Dynamic Programming (동적 계획법)
