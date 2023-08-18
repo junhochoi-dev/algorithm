@@ -19,6 +19,8 @@ BFS를 인접리스트로 구현하냐?
 
 <br><br><br>
 
+
+
 ## Binary Search (이분탐색)
 
 정렬된 정수의 리스트를 같은 크기의 두 부분 리스트로 나누고 필요한 부분에서만 탐색하도록 제한하여 원하는 원소를 찾는 알고리즘
@@ -31,6 +33,8 @@ O(logN)
 
 <br><br><br>
 
+
+
 ## Two Pointer(두 포인터)
 
 대상이 두개로 정해져있으면 무조건 한 번은 생각해보기
@@ -41,6 +45,8 @@ O(N)
 
 <br><br><br>
 
+
+
 ## DP : Dynamic Programming (동적 계획법)
 
 특정 범위까지의 값을 구하기 위해서 그것과 다른 범위까지의 값을 이용하여 효율적으로 값을 구하는 알고리즘
@@ -50,9 +56,23 @@ LIS (Longest Increasing Subsequence) - 최장 증가 부분 수열
 
 <br><br><br>
 
+
+
+## 다익스트라
+
+하나의 정점으로부터 나머지 정점까지의 최단거리를 구하는 알고리즘
+
+- 시간복잡도
+
+선형 탐색 O(N^2)
+힙 O(NlogN)
+
+<br><br><br>
+
+
+
 ## SegmentTree (세그먼트 트리)
 
-Inversion Counting
 
 ```java
 int[] arr = new long[N + 1];
@@ -67,5 +87,7 @@ static int init(int left, int right, int node){
     return segmentTree[node] = func(init(left, mid, node * 2), init(mid + 1, right, node * 2 + 1));
 }
 ```
-
 4N
+
+Inversion Counting
+
