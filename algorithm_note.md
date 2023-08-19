@@ -104,12 +104,15 @@ Knapsack 문제
 
 ## SegmentTree (세그먼트 트리)
 
+* initialization
 
 ```java
 // java
 int[] arr = new long[N + 1];
 int[] segmentTree = new long[1 << ((int)Math.ceil((Math.log(N)/Math.log(2))) + 1)];
 ```
+
+* init
 
 ```java
 // java
@@ -120,6 +123,11 @@ static int init(int left, int right, int node){
     return segmentTree[node] = func(init(left, mid, node * 2), init(mid + 1, right, node * 2 + 1));
 }
 ```
+
+* query
+
+* update
+
 4N
 
 Inversion Counting
