@@ -114,6 +114,17 @@ Knapsack 문제
 
 모든 정점에서 다른 모든 정점까지의 최단 거리를 구하는 알고리즘
 
+```java
+for(int k = 0; k < N; k++){
+    for(int i = 0; i < N: i++){
+        for(int j = 0; j < N; j++){
+            if(distance[i][k] + distance[k][j] < distance[i][j]) {
+                distance[i][j] = distance[i][k] + distance[k][j];
+            }
+        }
+    }
+}
+```
 <br><br><br>
 
 
