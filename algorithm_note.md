@@ -61,8 +61,12 @@ O(N)
 ```java
 int left = 0;
 int right = N - 1;
-while(left <= right){
 
+while(left <= right){
+    int mid = (left + right) / 2;
+    if(key < mid) right = mid - 1;
+    else if(key > mid) left = mid + 1;
+    else break;
 }
 ```
 
