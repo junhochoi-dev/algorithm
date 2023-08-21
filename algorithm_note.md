@@ -58,6 +58,14 @@ O(logN)
 
 O(N)
 
+```java
+int left = 0;
+int right = N - 1;
+while(left <= right){
+
+}
+```
+
 <br><br><br>
 
 
