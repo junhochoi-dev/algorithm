@@ -129,6 +129,14 @@ for(int k = 0; k < N; k++){
 
 
 
+## MST : Minimum Spanning Tree(최소스패닝트리)
+
+Spanning Tree 중에서 사용된 간선들의 가중치 합이 최소인 트리
+
+<br><br><br>
+
+
+
 ## Union Find
 
 Find 연산은 하나의 원소가 어떤 집합에 속해있는지를 판단하는 연산
@@ -139,11 +147,7 @@ Union 연산은 서로 다른 두 개의 집합을 하나의 집합으로 병합
 
 
 
-## MST : Minimum Spanning Tree(최소스패닝트리)
-
-Spanning Tree 중에서 사용된 간선들의 가중치 합이 최소인 트리
-
-<br><br><br>
+## 위상 정렬 (Topological Sort)
 
 
 
