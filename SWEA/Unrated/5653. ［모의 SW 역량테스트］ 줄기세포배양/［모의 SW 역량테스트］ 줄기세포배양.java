@@ -17,17 +17,17 @@ public class Solution {
             N = Integer.parseInt(st.nextToken());
             M = Integer.parseInt(st.nextToken());
             K = Integer.parseInt(st.nextToken());
-            livetime = new int[N + 2 * K][M + 2 * K];
-            activetime = new int[N + 2 * K][M + 2 * K];
+            livetime = new int[N + K][M + K];
+            activetime = new int[N + K][M + K];
             for(int i = 0; i < N; i++){
                 st = new StringTokenizer(br.readLine());
                 for(int j = 0; j < M; j++){
-                    activetime[K + i][K + j] = Integer.parseInt(st.nextToken());
-                    livetime[K + i][K + j] = activetime[K + i][K + j] * 2;
+                    activetime[K / 2 + i][K / 2 + j] = Integer.parseInt(st.nextToken());
+                    livetime[K / 2 + i][K / 2 + j] = activetime[K / 2 + i][K / 2 + j] * 2;
                 }
             }
-            N = N + 2 * K;
-            M = M + 2 * K;
+            N = N + K;
+            M = M + K;
             Queue<Integer> activeList = new ArrayDeque<Integer>();
             for(int currtime = 1; currtime <= K; currtime++){
                 while(!activeList.isEmpty()){
