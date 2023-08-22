@@ -155,6 +155,10 @@ Union 연산은 서로 다른 두 개의 집합을 하나의 집합으로 병합
 
 ## 위상 정렬 (Topological Sort)
 
+* 시간 복잡도
+
+O(V + E)
+
 <br><br><br>
 
 
