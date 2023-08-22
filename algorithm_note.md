@@ -159,6 +159,18 @@ Union 연산은 서로 다른 두 개의 집합을 하나의 집합으로 병합
 
 O(V + E)
 
+```java
+int[] degree = new int[N + 1];
+Queue<Integer> queue = new ArrayDeque<Integer>();
+for(int i = 1; i <= N; i++){
+    if(degree[i] == 0) queue.add(i);
+}
+while(!queue.isEmpty()){
+    int curr = queue.poll();
+    ...
+}
+```
+
 <br><br><br>
 
 
