@@ -158,11 +158,9 @@ for (int i = 0; i < MAX_SIZE; i++)
 
 ``` java
 int find(int x) {
-    // 루트 노드는 부모 노드 번호로 자기 자신을 가진다.
     if (root[x] == x) {
         return x;
     } else {
-        // 각 노드의 부모 노드를 찾아 올라간다.
         return find(root[x]);
     }
 }
