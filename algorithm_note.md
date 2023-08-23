@@ -102,6 +102,8 @@ Knapsack 문제
 
 <br><br><br>
 
+
+
 ## Bellman Ford (벨만 포드)
 
 <br><br><br>
@@ -135,6 +137,10 @@ for(int k = 0; k < N; k++){
 Find 연산은 하나의 원소가 어떤 집합에 속해있는지를 판단하는 연산
 
 Union 연산은 서로 다른 두 개의 집합을 하나의 집합으로 병합하는 연산
+
+* Find
+
+* Union
 
 <br><br><br>
 
