@@ -1,5 +1,9 @@
 ## BFS & DFS (너비 우선 탐색 & 깊이 우선 탐색)
 
+``` java
+visited...내용
+```
+
 BFS : 너비우선탐색
 
 ```java
@@ -8,13 +12,17 @@ Queue<Integer> queue = new ArrayDeque<Integer>();
 queue.add(start);
 while(!queue.isEmpty()){
     int curr = queue.poll();
+
+    for(int next ...){
+
+    }
 }
 ```
 
 DFS : 깊이우선탐색
 
 ```java
-//java
+// java
 
 ```
 
