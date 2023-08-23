@@ -1,4 +1,5 @@
 ## BFS & DFS (너비 우선 탐색 & 깊이 우선 탐색)
+
 BFS : 너비우선탐색
 
 ```java
@@ -33,8 +34,6 @@ BFS를 인접리스트로 구현하냐?
 
 <br><br><br>
 
-
-
 ## Binary Search (이분탐색)
 
 정렬된 정수의 리스트를 같은 크기의 두 부분 리스트로 나누고 필요한 부분에서만 탐색하도록 제한하여 원하는 원소를 찾는 알고리즘
@@ -47,8 +46,6 @@ BFS를 인접리스트로 구현하냐?
 O(logN)
 
 <br><br><br>
-
-
 
 ## Two Pointer(두 포인터)
 
@@ -72,8 +69,6 @@ while(left <= right){
 
 <br><br><br>
 
-
-
 ## DP : Dynamic Programming (동적 계획법)
 
 특정 범위까지의 값을 구하기 위해서 그것과 다른 범위까지의 값을 이용하여 효율적으로 값을 구하는 알고리즘
@@ -85,10 +80,7 @@ Knapsack 문제
 
 0-1 KnapSack Problem
 
-
 <br><br><br>
-
-
 
 ## Dijkstra (다익스트라)
 
@@ -102,13 +94,9 @@ Knapsack 문제
 
 <br><br><br>
 
-
-
 ## Bellman Ford (벨만 포드)
 
 <br><br><br>
-
-
 
 ## Floyd Warshall (플로이드 워셜)
 
@@ -125,9 +113,8 @@ for(int k = 0; k < N; k++){
     }
 }
 ```
+
 <br><br><br>
-
-
 
 ## MST : Minimum Spanning Tree(최소스패닝트리)
 
@@ -139,8 +126,6 @@ Spanning Tree 중에서 사용된 간선들의 가중치 합이 최소인 트리
 
 <br><br><br>
 
-
-
 ## Union Find
 
 서로소 집합
@@ -151,11 +136,9 @@ Union 연산은 서로 다른 두 개의 집합을 하나의 집합으로 병합
 
 <br><br><br>
 
-
-
 ## 위상 정렬 (Topological Sort)
 
-* 시간 복잡도
+- 시간 복잡도
 
 O(V + E)
 
@@ -173,10 +156,9 @@ while(!queue.isEmpty()){
 
 <br><br><br>
 
-
 ## SegmentTree (세그먼트 트리)
 
-* initialization
+- initialization
 
 ```java
 // java
@@ -184,7 +166,7 @@ int[] arr = new long[N + 1];
 int[] segmentTree = new long[1 << ((int)Math.ceil((Math.log(N)/Math.log(2))) + 1)];
 ```
 
-* init
+- init
 
 ```java
 // java
@@ -196,9 +178,17 @@ static int init(int left, int right, int node){
 }
 ```
 
-* query
+- query
 
-* update
+```java
+// java
+// func 조건에 맞는 구간 함수
+static int query(int left, int right, int node, int start, int end){
+
+}
+```
+
+- update
 
 4N
 
@@ -208,16 +198,13 @@ Inversion Counting
 
 <br><br><br>
 
-
-
+#####
 
 #####
-#####
+
 간선의 가중치가 모두 같은 그래프일 경우
-하나의 정점에서 다른 모든 정점까지 최단경로를 구하는 문제
--간선의 가중치가 모두 같은 그래프일 경우
-BFS
--간선의 가중치가 각각 다른 그래프일 경우
+하나의 정점에서 다른 모든 정점까지 최단경로를 구하는 문제 -간선의 가중치가 모두 같은 그래프일 경우
+BFS -간선의 가중치가 각각 다른 그래프일 경우
 다익스트라
 벨만-포드 → 음수 가중치의 간선이 존재할 때
 모든 정점에서 다른 모든 정점까지 최단경로를 구하는 문제
