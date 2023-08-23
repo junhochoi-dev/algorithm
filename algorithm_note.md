@@ -137,7 +137,13 @@ static int init(int left, int right, int node){
 
 * query
 
+```
+```
+
 * update
+
+```
+```
 
 4N
 
