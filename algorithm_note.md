@@ -1,6 +1,6 @@
 ## BFS & DFS (너비 우선 탐색 & 깊이 우선 탐색)
-
 BFS : 너비우선탐색
+
 ```java
 // java
 Queue<Integer> queue = new ArrayDeque<Integer>();
@@ -11,6 +11,11 @@ while(!queue.isEmpty()){
 ```
 
 DFS : 깊이우선탐색
+
+```java
+//java
+
+```
 
 무조건 둘을 혼용해서 쓸 수 있는 것이 아니다.
 
@@ -53,6 +58,18 @@ O(logN)
 
 O(N)
 
+```java
+int left = 0;
+int right = N - 1;
+
+while(left <= right){
+    int mid = (left + right) / 2;
+    if(key < mid) right = mid - 1;
+    else if(key > mid) left = mid + 1;
+    else break;
+}
+```
+
 <br><br><br>
 
 
@@ -75,7 +92,7 @@ Knapsack 문제
 
 ## Dijkstra (다익스트라)
 
-하나의 정점에서 다른 모든 정점까지의 최단 거리를 구하는 알고리즘(S.S.S.P - Single Source Shortest Path)
+하나의 정점에서 다른 모든 정점까지의 최단 거리를 구하는 알고리즘
 
 - 시간복잡도
 
@@ -87,15 +104,46 @@ Knapsack 문제
 
 
 
+## Bellman Ford (벨만 포드)
+
+<br><br><br>
+
+
+
 ## Floyd Warshall (플로이드 워셜)
 
 모든 정점에서 다른 모든 정점까지의 최단 거리를 구하는 알고리즘
+
+```java
+for(int k = 0; k < N; k++){
+    for(int i = 0; i < N; i++){
+        for(int j = 0; j < N; j++){
+            if(distance[i][k] + distance[k][j] < distance[i][j]) {
+                distance[i][j] = distance[i][k] + distance[k][j];
+            }
+        }
+    }
+}
+```
+<br><br><br>
+
+
+
+## MST : Minimum Spanning Tree(최소스패닝트리)
+
+Spanning Tree 중에서 사용된 간선들의 가중치 합이 최소인 트리
+
+크루스칼 알고리즘
+
+프림 알고리즘
 
 <br><br><br>
 
 
 
 ## Union Find
+
+서로소 집합
 
 Find 연산은 하나의 원소가 어떤 집합에 속해있는지를 판단하는 연산
 
@@ -105,12 +153,25 @@ Union 연산은 서로 다른 두 개의 집합을 하나의 집합으로 병합
 
 
 
-## MST : Minimum Spanning Tree(최소스패닝트리)
+## 위상 정렬 (Topological Sort)
 
-Spanning Tree 중에서 사용된 간선들의 가중치 합이 최소인 트리
+* 시간 복잡도
+
+O(V + E)
+
+```java
+int[] degree = new int[N + 1];
+Queue<Integer> queue = new ArrayDeque<Integer>();
+for(int i = 1; i <= N; i++){
+    if(degree[i] == 0) queue.add(i);
+}
+while(!queue.isEmpty()){
+    int curr = queue.poll();
+    ...
+}
+```
 
 <br><br><br>
-
 
 
 ## SegmentTree (세그먼트 트리)
@@ -153,3 +214,17 @@ Inversion Counting
 
 <br><br><br>
 
+
+
+
+#####
+#####
+간선의 가중치가 모두 같은 그래프일 경우
+하나의 정점에서 다른 모든 정점까지 최단경로를 구하는 문제
+-간선의 가중치가 모두 같은 그래프일 경우
+BFS
+-간선의 가중치가 각각 다른 그래프일 경우
+다익스트라
+벨만-포드 → 음수 가중치의 간선이 존재할 때
+모든 정점에서 다른 모든 정점까지 최단경로를 구하는 문제
+플로이드 와샬
