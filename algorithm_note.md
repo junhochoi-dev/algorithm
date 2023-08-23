@@ -34,6 +34,8 @@ BFS를 인접리스트로 구현하냐?
 
 <br><br><br>
 
+
+
 ## Binary Search (이분탐색)
 
 정렬된 정수의 리스트를 같은 크기의 두 부분 리스트로 나누고 필요한 부분에서만 탐색하도록 제한하여 원하는 원소를 찾는 알고리즘
@@ -46,6 +48,8 @@ BFS를 인접리스트로 구현하냐?
 O(logN)
 
 <br><br><br>
+
+
 
 ## Two Pointer(두 포인터)
 
@@ -69,6 +73,8 @@ while(left <= right){
 
 <br><br><br>
 
+
+
 ## DP : Dynamic Programming (동적 계획법)
 
 특정 범위까지의 값을 구하기 위해서 그것과 다른 범위까지의 값을 이용하여 효율적으로 값을 구하는 알고리즘
@@ -81,6 +87,8 @@ Knapsack 문제
 0-1 KnapSack Problem
 
 <br><br><br>
+
+
 
 ## Dijkstra (다익스트라)
 
@@ -97,6 +105,8 @@ Knapsack 문제
 ## Bellman Ford (벨만 포드)
 
 <br><br><br>
+
+
 
 ## Floyd Warshall (플로이드 워셜)
 
@@ -116,6 +126,20 @@ for(int k = 0; k < N; k++){
 
 <br><br><br>
 
+
+
+## Union Find
+
+서로소 집합
+
+Find 연산은 하나의 원소가 어떤 집합에 속해있는지를 판단하는 연산
+
+Union 연산은 서로 다른 두 개의 집합을 하나의 집합으로 병합하는 연산
+
+<br><br><br>
+
+
+
 ## MST : Minimum Spanning Tree(최소스패닝트리)
 
 신장 트리(Spanning Tree) : N개의 정점으로 이루어진 무방향 그래프에서 N개의 정점과 N - 1 개의 간선으로 이루어진 트리
@@ -128,15 +152,7 @@ for(int k = 0; k < N; k++){
 
 <br><br><br>
 
-## Union Find
 
-서로소 집합
-
-Find 연산은 하나의 원소가 어떤 집합에 속해있는지를 판단하는 연산
-
-Union 연산은 서로 다른 두 개의 집합을 하나의 집합으로 병합하는 연산
-
-<br><br><br>
 
 ## 위상 정렬 (Topological Sort)
 
@@ -157,6 +173,8 @@ while(!queue.isEmpty()){
 ```
 
 <br><br><br>
+
+
 
 ## SegmentTree (세그먼트 트리)
 
