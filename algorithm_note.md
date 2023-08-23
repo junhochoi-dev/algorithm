@@ -161,7 +161,7 @@ int find(int x) {
     if (root[x] == x) {
         return x;
     } else {
-        return find(root[x]);
+        return root[x] = find(root[x]);
     }
 }
 ```
