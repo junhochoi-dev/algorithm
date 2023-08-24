@@ -259,9 +259,14 @@ static int init(int left, int right, int node){
 ```
 
 - query
-
-<<<<<<< HEAD
-```
+``` java
+// java
+// func 조건에 맞는 구간 함수
+static int init(int left, int right, int node, int start, int end){
+    ...
+    int mid = (left + right) / 2;
+    return segmentTree[node] = func(init(left, mid, node * 2), init(mid + 1, right, node * 2 + 1));
+}
 ```
 
 * update
