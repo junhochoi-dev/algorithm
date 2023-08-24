@@ -108,6 +108,8 @@ while(left <= right){
 
 LIS (Longest Increasing Subsequence) - 최장 증가 부분 수열
 
+LCS (Longest Common SubSequence) - 최장 공통 수열
+
 LCS (Longest Common Substring) - 최장 공통 문자열
 
 Knapsack 문제
