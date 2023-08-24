@@ -1,7 +1,17 @@
 ## BFS & DFS (너비 우선 탐색 & 깊이 우선 탐색)
 
+* visited
+
 ``` java
-visited...내용
+// 1. 1, 2차원 배열
+int[] visited = new int[N];
+int[][] visited = new int[N][M];
+
+// 2. HashSet 이용
+HashSet<Integer> visited = HashSet<Integer>();
+
+// 차원 축소 (N X M 배열의 (x, y))
+int location = x * M + y;
 ```
 
 BFS : 너비우선탐색
