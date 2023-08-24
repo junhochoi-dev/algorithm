@@ -195,15 +195,15 @@ void union(int x, int y){
 
 
 
-## MST : Minimum Spanning Tree(최소스패닝트리)
+## MST : Minimum Spanning Tree (최소스패닝트리)
 
 신장 트리(Spanning Tree) : N개의 정점으로 이루어진 무방향 그래프에서 N개의 정점과 N - 1 개의 간선으로 이루어진 트리
 
 최소 신장 트리 : 무방향 가중치 그래프에서 신장 트리를 구성하는 간선들의 가중치의 합이 최소인 트리
 
-크루스칼 알고리즘
+### Kruskal (크루스칼 알고리즘)
 
-프림 알고리즘
+### Prim (프림 알고리즘)
 
 <br><br><br>
 
