@@ -265,19 +265,12 @@ static int init(int left, int right, int node){
 ```
 
 * update
-=======
 ```java
 // java
 // func 조건에 맞는 구간 함수
 static int query(int left, int right, int node, int start, int end){
 
 }
-```
-
-- update
->>>>>>> a87321c5a550aafbb11d70de36791b2ef6a3ae84
-
-```
 ```
 
 4N
