@@ -33,7 +33,12 @@ DFS : 깊이우선탐색
 
 ```java
 // java
-
+void DFS(int curr){
+    for(int next : edge.get(curr))
+        if(visited.contains(next)) continue;
+        ...
+    }
+}
 ```
 
 무조건 둘을 혼용해서 쓸 수 있는 것이 아니다.
