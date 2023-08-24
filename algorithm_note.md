@@ -106,11 +106,16 @@ while(left <= right){
 특정 범위까지의 값을 구하기 위해서 그것과 다른 범위까지의 값을 이용하여 효율적으로 값을 구하는 알고리즘
 예전에 것을 이용하여 최적을 구한다
 
-LIS (Longest Increasing Subsequence) - 최장 증가 부분 수열
+### LIS (Longest Increasing Subsequence) - 최장 증가 부분 수열
 
-LCS (Longest Common SubSequence) - 최장 공통 수열
+### LCS (Longest Common SubSequence) - 최장 공통 수열
 
-LCS (Longest Common Substring) - 최장 공통 문자열
+전체 문자열에서 꼭 연속된 문자열인 것은 아닌 부분 문자열
+
+### LCS (Longest Common Substring) - 최장 공통 문자열
+
+전체 문자열에서 연속된 부분 문자열
+
 
 Knapsack 문제
 
@@ -288,14 +293,34 @@ Inversion Counting
 
 <br><br><br>
 
-#####
 
-#####
+
+
+
+
+
+
+
+
+
+-------------------- 
 
 간선의 가중치가 모두 같은 그래프일 경우
+
 하나의 정점에서 다른 모든 정점까지 최단경로를 구하는 문제 -간선의 가중치가 모두 같은 그래프일 경우
+
 BFS -간선의 가중치가 각각 다른 그래프일 경우
+
 다익스트라
+
 벨만-포드 → 음수 가중치의 간선이 존재할 때
+
 모든 정점에서 다른 모든 정점까지 최단경로를 구하는 문제
+
 플로이드 와샬
+
+-------------------------
+next permutation 다시짜
+
+
+
