@@ -1,4 +1,9 @@
 ## BFS & DFS (너비 우선 탐색 & 깊이 우선 탐색)
+
+``` java
+visited...내용
+```
+
 BFS : 너비우선탐색
 
 ```java
@@ -7,13 +12,17 @@ Queue<Integer> queue = new ArrayDeque<Integer>();
 queue.add(start);
 while(!queue.isEmpty()){
     int curr = queue.poll();
+
+    for(int next ...){
+
+    }
 }
 ```
 
 DFS : 깊이우선탐색
 
 ```java
-//java
+// java
 
 ```
 
@@ -81,10 +90,11 @@ while(left <= right){
 
 LIS (Longest Increasing Subsequence) - 최장 증가 부분 수열
 
+LCS (Longest Common String) - 최장 공통 문자열
+
 Knapsack 문제
 
 0-1 KnapSack Problem
-
 
 <br><br><br>
 
@@ -125,17 +135,6 @@ for(int k = 0; k < N; k++){
     }
 }
 ```
-<br><br><br>
-
-
-
-## MST : Minimum Spanning Tree(최소스패닝트리)
-
-Spanning Tree 중에서 사용된 간선들의 가중치 합이 최소인 트리
-
-크루스칼 알고리즘
-
-프림 알고리즘
 
 <br><br><br>
 
@@ -149,13 +148,57 @@ Find 연산은 하나의 원소가 어떤 집합에 속해있는지를 판단하
 
 Union 연산은 서로 다른 두 개의 집합을 하나의 집합으로 병합하는 연산
 
+* initialization
+
+``` java
+int root[MAX_SIZE];
+for (int i = 0; i < MAX_SIZE; i++)
+    parent[i] = i;
+```
+
+* Find
+
+``` java
+int find(int x) {
+    if (root[x] == x) {
+        return x;
+    } else {
+        return root[x] = find(root[x]);
+    }
+}
+```
+
+* Union
+  
+``` java
+void union(int x, int y){
+    x = find(x);
+    y = find(y);
+    root[y] = x;
+}
+```
+
+<br><br><br>
+
+
+
+## MST : Minimum Spanning Tree(최소스패닝트리)
+
+신장 트리(Spanning Tree) : N개의 정점으로 이루어진 무방향 그래프에서 N개의 정점과 N - 1 개의 간선으로 이루어진 트리
+
+최소 신장 트리 : 무방향 가중치 그래프에서 신장 트리를 구성하는 간선들의 가중치의 합이 최소인 트리
+
+크루스칼 알고리즘
+
+프림 알고리즘
+
 <br><br><br>
 
 
 
 ## 위상 정렬 (Topological Sort)
 
-* 시간 복잡도
+- 시간 복잡도
 
 O(V + E)
 
@@ -174,9 +217,10 @@ while(!queue.isEmpty()){
 <br><br><br>
 
 
+
 ## SegmentTree (세그먼트 트리)
 
-* initialization
+- initialization
 
 ```java
 // java
@@ -184,7 +228,7 @@ int[] arr = new long[N + 1];
 int[] segmentTree = new long[1 << ((int)Math.ceil((Math.log(N)/Math.log(2))) + 1)];
 ```
 
-* init
+- init
 
 ```java
 // java
@@ -196,12 +240,24 @@ static int init(int left, int right, int node){
 }
 ```
 
-* query
+- query
 
+<<<<<<< HEAD
 ```
 ```
 
 * update
+=======
+```java
+// java
+// func 조건에 맞는 구간 함수
+static int query(int left, int right, int node, int start, int end){
+
+}
+```
+
+- update
+>>>>>>> a87321c5a550aafbb11d70de36791b2ef6a3ae84
 
 ```
 ```
@@ -214,16 +270,13 @@ Inversion Counting
 
 <br><br><br>
 
-
-
+#####
 
 #####
-#####
+
 간선의 가중치가 모두 같은 그래프일 경우
-하나의 정점에서 다른 모든 정점까지 최단경로를 구하는 문제
--간선의 가중치가 모두 같은 그래프일 경우
-BFS
--간선의 가중치가 각각 다른 그래프일 경우
+하나의 정점에서 다른 모든 정점까지 최단경로를 구하는 문제 -간선의 가중치가 모두 같은 그래프일 경우
+BFS -간선의 가중치가 각각 다른 그래프일 경우
 다익스트라
 벨만-포드 → 음수 가중치의 간선이 존재할 때
 모든 정점에서 다른 모든 정점까지 최단경로를 구하는 문제
