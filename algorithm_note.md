@@ -108,9 +108,12 @@ while(left <= right){
 
 ### LIS (Longest Increasing Subsequence) - 최장 증가 부분 수열
 
+
 ### LCS (Longest Common SubSequence) - 최장 공통 수열
 
-전체 문자열에서 꼭 연속된 문자열인 것은 아닌 부분 문자열
+전체 문자열에서 꼭 연속된 수열인 것은 아닌 부분 수열
+
+조건을 만족하는 수열이 여러개 존재할 수 있다.
 
 ```
 // different
@@ -123,6 +126,7 @@ dp[i][j] = dp[i - 1][j - 1] + 1;
 
 전체 문자열에서 연속된 부분 문자열
 
+조건을 만족하는 수열이 여러개 존재할 수 있다.
 
 Knapsack 문제
 
