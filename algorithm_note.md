@@ -113,6 +113,9 @@ while(left <= right){
 전체 문자열에서 꼭 연속된 문자열인 것은 아닌 부분 문자열
 
 ```
+// different
+dp[i][j] = 0;
+// same
 dp[i][j] = dp[i - 1][j - 1] + 1;
 ```
 
