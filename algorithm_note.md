@@ -112,6 +112,10 @@ while(left <= right){
 
 전체 문자열에서 꼭 연속된 문자열인 것은 아닌 부분 문자열
 
+```
+dp[i][j] = dp[i - 1][j - 1] + 1;
+```
+
 ### LCS (Longest Common Substring) - 최장 공통 문자열
 
 전체 문자열에서 연속된 부분 문자열
