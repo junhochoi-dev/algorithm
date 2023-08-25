@@ -7,10 +7,7 @@ public class Main {
     static StringTokenizer st;
     static class Shark{
         boolean dead;
-        int row, col;
-        int speed;
-        int direction;
-        int weight;
+        int row, col, speed, direction, weight;
         public Shark(boolean dead, int row, int col, int speed, int direction, int weight) {
             this.dead = dead;
             this.row = row;
@@ -57,7 +54,6 @@ public class Main {
                 Shark curr = sharkList.get(currIdx);
                 int tempdirection = curr.direction, temprow = curr.row, tempcol = curr.col;
 
-                //System.out.println(curr.row + " " + curr.col);
                 if(arr[curr.row][curr.col] == currIdx) arr[curr.row][curr.col] = 0;
                 int ddx = curr.row + dx[curr.direction] * curr.speed;
                 int ddy = curr.col + dy[curr.direction] * curr.speed;
