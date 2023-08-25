@@ -56,6 +56,7 @@ public class Solution{
         }
     }
     static void processorOn(int idx){
+        if(processorMaxCnt > processorCurrCnt + processorList.size() - idx) return;
         int curr = processorList.get(idx);
         int x = curr / N;
         int y = curr % N;
