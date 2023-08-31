@@ -75,6 +75,22 @@ Parametric Search -> mid에 대한 기준을 생각해봐야한다 무조건 절
 
 O(logN)
 
+```java
+int low = 1;
+        int high = L - 1;
+        while(low < high){
+            int mid = (low + high) / 2;
+            int cnt = 0;
+            for(int i = 0; i < N + 1; i++){
+                cnt += diff.get(i) / mid;
+                if(diff.get(i) % mid == 0) cnt--;
+            }
+            if(cnt <= M) answer = Math.min(answer, mid);
+            if(cnt <= M) high = mid;
+            if(cnt > M) low = mid + 1;
+        }
+```
+
 <br><br><br>
 
 
