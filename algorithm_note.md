@@ -149,6 +149,10 @@ dp[i][j] = dp[i - 1][j - 1] + 1;
 
 Knapsack 문제
 
+가치와 비용이 존재하는 물건을 최대한의 가치로 담기
+
+각 다른 물건을 따로 DP를 돌린다고 생각하기 !
+
 0-1 KnapSack Problem
 
 <br><br><br>
