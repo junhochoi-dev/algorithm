@@ -56,6 +56,7 @@ public class Main {
             int gap = minimum();
             int answer = pair(K - gap) + (gap == 0 ? 0 : pair(K + gap));
             sb.append(answer).append('\n');
+            System.gc();
         }
         System.out.println(sb);
     }
