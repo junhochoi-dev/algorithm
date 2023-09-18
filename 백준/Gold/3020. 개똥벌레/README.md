@@ -16,13 +16,13 @@
 
 <p>아래 그림은 길이가 14미터이고 높이가 5미터인 동굴이다. (예제 그림)</p>
 
-<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/c6fd496d-ccf5-4f9d-a06e-32b121fc6a82/-/preview/" style="width: 271px; height: 108px;"></p>
+<p style="text-align: center;"><img alt="" src="" style="width: 271px; height: 108px;"></p>
 
 <p>이 개똥벌레는 장애물을 피하지 않는다. 자신이 지나갈 구간을 정한 다음 일직선으로 지나가면서 만나는 모든 장애물을 파괴한다.</p>
 
 <p>위의 그림에서 4번째 구간으로 개똥벌레가 날아간다면 파괴해야하는 장애물의 수는 총 여덟개이다. (4번째 구간은 길이가 3인 석순과 길이가 4인 석순의 중간지점을 말한다)</p>
 
-<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/bfcbb94f-0e15-4ff9-b2ef-43e07c7ee503/-/preview/" style="width: 292px; height: 108px;"></p>
+<p style="text-align: center;"><img alt="" src="" style="width: 292px; height: 108px;"></p>
 
 <p>하지만, 첫 번째 구간이나 다섯 번째 구간으로 날아간다면 개똥벌레는 장애물 일곱개만 파괴하면 된다.</p>
 
