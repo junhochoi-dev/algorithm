@@ -15,7 +15,6 @@ public class Main {
         for(int i = 0; i < M; i++){
             cnt += gem[i] / std + (gem[i] % std == 0 ? 0 : 1);
         }
-        //if(cnt == N) answer = Math.min(answer, std);
         return cnt;
     }
 
