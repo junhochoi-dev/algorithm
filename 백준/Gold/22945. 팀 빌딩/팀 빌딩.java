@@ -17,8 +17,7 @@ public class Main {
 		int answer = 0;
 		int left = 0, right = N - 1;
 		while (left < right) {
-			int curr = Math.min(arr[left], arr[right]) * (right - left - 1);
-			answer = Math.max(answer, curr);
+			answer = Math.max(answer, Math.min(arr[left], arr[right]) * (right - left - 1));
 			if (arr[left] < arr[right]) {
 				left++;
 			} else {
