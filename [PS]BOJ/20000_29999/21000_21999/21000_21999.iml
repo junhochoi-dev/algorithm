@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/21608" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/21631" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/21638" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/21665" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/21939" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/21964" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="0f08efd8-1a0f-48b3-bd19-37ee704f5a82" />
+  </component>
+</module>

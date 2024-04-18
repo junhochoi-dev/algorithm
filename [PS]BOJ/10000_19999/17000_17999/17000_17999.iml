@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/17086" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17092" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17135" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17143" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17182" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17208" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17255" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17265" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17281" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17406" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17425" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17484" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17485" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17845" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17951" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17952" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="6a95471e-79c1-4d89-9e98-958f7c63813a" />
+  </component>
+</module>

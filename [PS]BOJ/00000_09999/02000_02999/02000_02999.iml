@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/02004" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02042" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02073" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02096" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02110" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02151" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02164" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02179" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02210" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02229" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02234" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02239" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02240" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02251" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02268" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02310" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02343" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02352" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02357" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02417" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02447" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02493" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02503" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02508" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02512" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02556" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02563" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02615" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02624" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02660" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02666" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02776" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02792" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02931" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02961" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="df720d69-ca43-48d1-bc4f-ab1aba43c25f" />
+  </component>
+</module>
