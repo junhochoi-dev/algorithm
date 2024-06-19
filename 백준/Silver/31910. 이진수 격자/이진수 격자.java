@@ -8,7 +8,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		int N = Integer.parseInt(br.readLine());
-		int[][] dp = new int[N][N];
+		long[][] dp = new long[N][N];
 		for (int i = 0; i < N; i++) {
 			st = new StringTokenizer(br.readLine());
 			for (int j = 0; j < N; j++) {
@@ -17,8 +17,8 @@ public class Main {
 		}
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < N; j++) {
-				int u = i - 1 >= 0 ? dp[i - 1][j] : 0;
-				int l = j - 1 >= 0 ? dp[i][j - 1] : 0;
+				long u = i - 1 >= 0 ? dp[i - 1][j] : 0;
+				long l = j - 1 >= 0 ? dp[i][j - 1] : 0;
 				dp[i][j] = (Math.max(u, l) << 1) + dp[i][j];
 			}
 		}
