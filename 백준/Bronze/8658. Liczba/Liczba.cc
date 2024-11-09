@@ -9,7 +9,7 @@ int main() {
     fastio
     int N; cin >> N;
     int MINIMUM = N, MAXIMUM = 1;
-    for(int i = 2; i <= N; i++) {
+    for(int i = 2; i < N; i++) {
         if(N % i) { MINIMUM = i; break; }
     }
     for(int i = N - 1; i >= 2; i--) {
