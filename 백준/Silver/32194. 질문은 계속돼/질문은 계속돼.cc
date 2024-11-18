@@ -13,17 +13,10 @@ int main() {
     NO.push_back(0); NO.push_back(0);
     for(int n = 1; n <= N; n++){
         int q, x, y; cin >> q >> x >> y; x--;
-        if(q == 1){
-            bool ans = (y - x == YES[y] - YES[x]);
-            YES.push_back(YES[n] + (ans ? 1 : 0));
-            NO.push_back(NO[n] + (!ans ? 1 : 0));
-            cout << (ans ? "Yes" : "No") << endl;
-        } else {
-            bool ans = (y - x == NO[y] - NO[x]);
-            YES.push_back(YES[n] + (ans ? 1 : 0));
-            NO.push_back(NO[n] + (!ans ? 1 : 0));
-            cout << (ans ? "Yes" : "No") << endl;
-        }
+        bool ans = (q == 1 ? (y - x == YES[y] - YES[x]) : (y - x == NO[y] - NO[x]));
+        cout << (ans ? "Yes" : "No") << endl;
+        YES.push_back(YES[n] + (ans ? 1 : 0));
+        NO.push_back(NO[n] + (!ans ? 1 : 0));
     }
     return 0;
 }
